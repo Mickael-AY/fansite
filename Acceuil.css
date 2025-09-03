@@ -1,0 +1,18 @@
+body{ 
+   
+}
+.titre-lunivers-manga{
+margin: 0 auto; 
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 3em ;
+text-align: center;
+background-image: url(images/Multi-cadre-manga.jpeg);
+background-size: 1000px;
+background-position: top;
+width: 700px;
+border-radius: 20px;
+padding: 100px;
+
+}
