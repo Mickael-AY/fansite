@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-
+background-image: url(images/cercle-rouge.jpg);
 }
 
 header{
@@ -13,7 +13,7 @@ height: 300px;
 display: flex;
 justify-content:center;
 align-items:end;
- 
+ background-attachment: fixed;
 }
 .titre-lunivers-manga{
     color: white;
@@ -32,18 +32,66 @@ nav{
 .bienvenue{
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(251, 251, 251);
     width: 800px;
     margin: 0 auto;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding: 40px;
     border-radius: 15px;
 }
 .bienvenue1{
-    
     font-size: 22px;
     color: rgb(252, 251, 251);
 
 }
+.container{
+background-image: url(images/son-goku-naruto.jpg);
+background-attachment: fixed;
+}
 
+.section1{
+padding: 30px;
+max-width: 800px;
+text-align: center;
+}
+.texte-titre > h2{
+font-size: 40px;
+
+}
+.ola{
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(103, 39, 39);
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.ligneA{
+
+  display: flex;
+  column-gap: 30px;
+  border-radius: 10px;
+  
+}
+.texte-titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+    
+}
+   
+.hunterimg{
+width: 180px ;
+height: 230px;
+border-radius:110px ;
+object-fit: cover;
+}
